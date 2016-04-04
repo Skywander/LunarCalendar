@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3B71A421CB207DF00070F7D /* ChineseCalendarDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A3C1CB207DF00070F7D /* ChineseCalendarDB.cpp */; };
+		D3B71A431CB207DF00070F7D /* ChineseDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A3E1CB207DF00070F7D /* ChineseDate.cpp */; };
+		D3B71A441CB207DF00070F7D /* SolarDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A401CB207DF00070F7D /* SolarDate.cpp */; };
+		D3B71A471CB207EE00070F7D /* CalendarUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A461CB207EE00070F7D /* CalendarUtil.mm */; };
+		D3B71A4A1CB2109B00070F7D /* Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A491CB2109B00070F7D /* Navigation.m */; };
+		D3B71A591CB29E7900070F7D /* ChineseEra.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A581CB29E7900070F7D /* ChineseEra.m */; };
+		D3B71A5F1CB2A05D00070F7D /* ViewController+ChineseDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A5E1CB2A05D00070F7D /* ViewController+ChineseDay.m */; };
+		D3B71A621CB2A0D600070F7D /* ViewController+SystemLunar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A611CB2A0D600070F7D /* ViewController+SystemLunar.m */; };
+		D3B71A651CB2A15300070F7D /* ViewController+CollectionDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A641CB2A15300070F7D /* ViewController+CollectionDelegate.mm */; };
+		D3B71A681CB2CBD500070F7D /* ViewController+ChineseMonth.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A671CB2CBD500070F7D /* ViewController+ChineseMonth.mm */; };
+		D3B71A6B1CB2CECB00070F7D /* NSString+DateCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B71A6A1CB2CECB00070F7D /* NSString+DateCompare.m */; };
 		D3F1B2A31CACE0D2006918BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1B2A21CACE0D2006918BC /* main.m */; };
 		D3F1B2A61CACE0D2006918BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1B2A51CACE0D2006918BC /* AppDelegate.m */; };
-		D3F1B2A91CACE0D2006918BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1B2A81CACE0D2006918BC /* ViewController.m */; };
+		D3F1B2A91CACE0D2006918BC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3F1B2A81CACE0D2006918BC /* ViewController.mm */; };
 		D3F1B2AC1CACE0D3006918BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F1B2AA1CACE0D3006918BC /* Main.storyboard */; };
 		D3F1B2AF1CACE0D3006918BC /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3F1B2AD1CACE0D3006918BC /* __.xcdatamodeld */; };
 		D3F1B2B11CACE0D3006918BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F1B2B01CACE0D3006918BC /* Assets.xcassets */; };
@@ -36,12 +47,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3B71A3C1CB207DF00070F7D /* ChineseCalendarDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseCalendarDB.cpp; sourceTree = "<group>"; };
+		D3B71A3D1CB207DF00070F7D /* ChineseCalendarDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseCalendarDB.h; sourceTree = "<group>"; };
+		D3B71A3E1CB207DF00070F7D /* ChineseDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChineseDate.cpp; sourceTree = "<group>"; };
+		D3B71A3F1CB207DF00070F7D /* ChineseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseDate.h; sourceTree = "<group>"; };
+		D3B71A401CB207DF00070F7D /* SolarDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarDate.cpp; sourceTree = "<group>"; };
+		D3B71A411CB207DF00070F7D /* SolarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarDate.h; sourceTree = "<group>"; };
+		D3B71A451CB207EE00070F7D /* CalendarUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarUtil.h; sourceTree = "<group>"; };
+		D3B71A461CB207EE00070F7D /* CalendarUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalendarUtil.mm; sourceTree = "<group>"; };
+		D3B71A481CB2109B00070F7D /* Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navigation.h; sourceTree = "<group>"; };
+		D3B71A491CB2109B00070F7D /* Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Navigation.m; sourceTree = "<group>"; };
+		D3B71A4B1CB210EA00070F7D /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		D3B71A531CB257D600070F7D /* NavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationProtocol.h; sourceTree = "<group>"; };
+		D3B71A571CB29E7900070F7D /* ChineseEra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseEra.h; sourceTree = "<group>"; };
+		D3B71A581CB29E7900070F7D /* ChineseEra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseEra.m; sourceTree = "<group>"; };
+		D3B71A5D1CB2A05D00070F7D /* ViewController+ChineseDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+ChineseDay.h"; sourceTree = "<group>"; };
+		D3B71A5E1CB2A05D00070F7D /* ViewController+ChineseDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+ChineseDay.m"; sourceTree = "<group>"; };
+		D3B71A601CB2A0D600070F7D /* ViewController+SystemLunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+SystemLunar.h"; sourceTree = "<group>"; };
+		D3B71A611CB2A0D600070F7D /* ViewController+SystemLunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+SystemLunar.m"; sourceTree = "<group>"; };
+		D3B71A631CB2A15300070F7D /* ViewController+CollectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+CollectionDelegate.h"; sourceTree = "<group>"; };
+		D3B71A641CB2A15300070F7D /* ViewController+CollectionDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ViewController+CollectionDelegate.mm"; sourceTree = "<group>"; };
+		D3B71A661CB2CBD500070F7D /* ViewController+ChineseMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+ChineseMonth.h"; sourceTree = "<group>"; };
+		D3B71A671CB2CBD500070F7D /* ViewController+ChineseMonth.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "ViewController+ChineseMonth.mm"; sourceTree = "<group>"; };
+		D3B71A691CB2CECB00070F7D /* NSString+DateCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateCompare.h"; sourceTree = "<group>"; };
+		D3B71A6A1CB2CECB00070F7D /* NSString+DateCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateCompare.m"; sourceTree = "<group>"; };
 		D3F1B29E1CACE0D2006918BC /* 日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1B2A21CACE0D2006918BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3F1B2A41CACE0D2006918BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3F1B2A51CACE0D2006918BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D3F1B2A71CACE0D2006918BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3F1B2A81CACE0D2006918BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3F1B2A81CACE0D2006918BC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		D3F1B2AB1CACE0D3006918BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3F1B2AE1CACE0D3006918BC /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
 		D3F1B2B01CACE0D3006918BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +115,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3B71A541CB29CB300070F7D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D3B71A451CB207EE00070F7D /* CalendarUtil.h */,
+				D3B71A461CB207EE00070F7D /* CalendarUtil.mm */,
+				D3B71A3C1CB207DF00070F7D /* ChineseCalendarDB.cpp */,
+				D3B71A3D1CB207DF00070F7D /* ChineseCalendarDB.h */,
+				D3B71A3E1CB207DF00070F7D /* ChineseDate.cpp */,
+				D3B71A3F1CB207DF00070F7D /* ChineseDate.h */,
+				D3B71A401CB207DF00070F7D /* SolarDate.cpp */,
+				D3B71A411CB207DF00070F7D /* SolarDate.h */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D3B71A551CB29CD000070F7D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D3B71A4B1CB210EA00070F7D /* Constant.h */,
+				D3B71A571CB29E7900070F7D /* ChineseEra.h */,
+				D3B71A581CB29E7900070F7D /* ChineseEra.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D3B71A561CB29CE900070F7D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D3B71A481CB2109B00070F7D /* Navigation.h */,
+				D3B71A491CB2109B00070F7D /* Navigation.m */,
+				D3B71A531CB257D600070F7D /* NavigationProtocol.h */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
 		D3F1B2951CACE0D2006918BC = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +173,23 @@
 		D3F1B2A01CACE0D2006918BC /* 日历 */ = {
 			isa = PBXGroup;
 			children = (
+				D3B71A561CB29CE900070F7D /* Navigation */,
+				D3B71A551CB29CD000070F7D /* Util */,
+				D3B71A541CB29CB300070F7D /* CoreData */,
 				D3F1B2A41CACE0D2006918BC /* AppDelegate.h */,
 				D3F1B2A51CACE0D2006918BC /* AppDelegate.m */,
 				D3F1B2A71CACE0D2006918BC /* ViewController.h */,
-				D3F1B2A81CACE0D2006918BC /* ViewController.m */,
+				D3F1B2A81CACE0D2006918BC /* ViewController.mm */,
+				D3B71A691CB2CECB00070F7D /* NSString+DateCompare.h */,
+				D3B71A6A1CB2CECB00070F7D /* NSString+DateCompare.m */,
+				D3B71A661CB2CBD500070F7D /* ViewController+ChineseMonth.h */,
+				D3B71A671CB2CBD500070F7D /* ViewController+ChineseMonth.mm */,
+				D3B71A631CB2A15300070F7D /* ViewController+CollectionDelegate.h */,
+				D3B71A641CB2A15300070F7D /* ViewController+CollectionDelegate.mm */,
+				D3B71A5D1CB2A05D00070F7D /* ViewController+ChineseDay.h */,
+				D3B71A5E1CB2A05D00070F7D /* ViewController+ChineseDay.m */,
+				D3B71A601CB2A0D600070F7D /* ViewController+SystemLunar.h */,
+				D3B71A611CB2A0D600070F7D /* ViewController+SystemLunar.m */,
 				D3F1B2AA1CACE0D3006918BC /* Main.storyboard */,
 				D3F1B2B01CACE0D3006918BC /* Assets.xcassets */,
 				D3F1B2B21CACE0D3006918BC /* LaunchScreen.storyboard */,
@@ -273,10 +356,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F1B2A91CACE0D2006918BC /* ViewController.m in Sources */,
+				D3B71A5F1CB2A05D00070F7D /* ViewController+ChineseDay.m in Sources */,
+				D3B71A421CB207DF00070F7D /* ChineseCalendarDB.cpp in Sources */,
+				D3B71A4A1CB2109B00070F7D /* Navigation.m in Sources */,
+				D3B71A471CB207EE00070F7D /* CalendarUtil.mm in Sources */,
+				D3B71A431CB207DF00070F7D /* ChineseDate.cpp in Sources */,
+				D3B71A681CB2CBD500070F7D /* ViewController+ChineseMonth.mm in Sources */,
+				D3B71A591CB29E7900070F7D /* ChineseEra.m in Sources */,
+				D3F1B2A91CACE0D2006918BC /* ViewController.mm in Sources */,
 				D3F1B2AF1CACE0D3006918BC /* __.xcdatamodeld in Sources */,
+				D3B71A651CB2A15300070F7D /* ViewController+CollectionDelegate.mm in Sources */,
+				D3B71A621CB2A0D600070F7D /* ViewController+SystemLunar.m in Sources */,
 				D3F1B2A61CACE0D2006918BC /* AppDelegate.m in Sources */,
+				D3B71A6B1CB2CECB00070F7D /* NSString+DateCompare.m in Sources */,
 				D3F1B2A31CACE0D2006918BC /* main.m in Sources */,
+				D3B71A441CB207DF00070F7D /* SolarDate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +594,7 @@
 				D3F1B2D01CACE0D3006918BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F1B2D11CACE0D3006918BC /* Build configuration list for PBXNativeTarget "日历Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +603,7 @@
 				D3F1B2D31CACE0D3006918BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F1B2D41CACE0D3006918BC /* Build configuration list for PBXNativeTarget "日历UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +612,7 @@
 				D3F1B2D61CACE0D3006918BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

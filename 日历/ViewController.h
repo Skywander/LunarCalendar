@@ -7,8 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CalendarUtil.h"
+#import "Navigation.h"
+#import "Constant.h"
+#import "NavigationProtocol.h"
+#import "ChineseEra.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic) CGFloat cellWidth;
+@property (nonatomic) CGFloat cellHeight;
+
+@property (nonatomic) NSInteger weekday;
+
+@property (nonatomic,strong) UILabel *showLabel;
+@property (nonatomic,strong) UILabel *systemLabel;
+
+@property (nonatomic,strong) Navigation *navigation;
+
+@property (nonatomic,strong) UICollectionViewCell *selectedCell;
+
+@property (nonatomic,strong) UICollectionViewCell *currentCell;
+
+@property (nonatomic,strong) NSDateComponents *selectedDate;
 
 
 @end
