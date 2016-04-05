@@ -33,13 +33,13 @@
     
     NSInteger getLocation = 0;
     
-    for (int i = 2; i < 22; i = i+2) {
+    for (int i = 0; i < 22; i = i+2) {
         NSString *left = [array objectAtIndex:i];
         
         NSString *right = [array objectAtIndex:(i + 2)];
         
-        if ([NSString compare:left SmallEqualThan:lunarDate] || [NSString compare:lunarDate SmallThan:right]) {
-            getLocation = i / 2;
+        if ([NSString compare:left SmallEqualThan:lunarDate] && [NSString compare:lunarDate SmallThan:right]) {
+            getLocation = i / 2 - 1;
         }
         
         returnString = [[ChineseEra getArrayWithString:@"ChineseYear"] objectAtIndex:getLocation + _ChineseYear];
